@@ -1,6 +1,6 @@
 FROM golang:1.10-alpine as builder
 
-WORKDIR /go/src/github.com/ouqiang/gocron
+WORKDIR /go/src/gocron
 
 COPY . .
 
@@ -20,7 +20,7 @@ RUN apk add --no-cache ca-certificates \
 
 WORKDIR /app
 
-COPY --from=builder /go/src/github.com/ouqiang/gocron/bin/gocron .
+COPY --from=builder /go/src/gocron/bin/gocron .
 
 RUN chown -R app:app ./
 

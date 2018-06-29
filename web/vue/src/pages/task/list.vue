@@ -13,6 +13,9 @@
         <el-form-item label="标签">
           <el-input v-model.trim="searchParams.tag"></el-input>
         </el-form-item>
+        <el-form-item label="分类">
+          <el-input v-model.trim="searchParams.tag"></el-input>
+        </el-form-item>
       </el-row>
       <el-row>
         <el-form-item label="执行方式">
@@ -57,7 +60,6 @@
       <el-col :span="2">
         <el-button type="primary" @click="toEdit(null)" v-if="this.$store.getters.user.isAdmin">新增</el-button>
       </el-col>
-     
       <el-col :span="2">
         <el-button type="info" @click="refresh">刷新</el-button>
       </el-col>
