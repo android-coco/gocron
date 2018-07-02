@@ -11,7 +11,7 @@ set -o errexit
 set -o nounset
 # 管道中任一命令执行失败退出
 set -o pipefail
-eval $(go env)
+# eval $(go env)
 
 # 二进制文件名
 BINARY_NAME=''
