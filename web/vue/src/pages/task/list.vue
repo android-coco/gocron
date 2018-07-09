@@ -13,9 +13,6 @@
         <el-form-item label="标签">
           <el-input v-model.trim="searchParams.tag"></el-input>
         </el-form-item>
-        <el-form-item label="分类">
-          <el-input v-model.trim="searchParams.tag"></el-input>
-        </el-form-item>
       </el-row>
       <el-row>
         <el-form-item label="执行方式">

@@ -318,5 +318,5 @@
 			"revision": ""
 		}
 	],
-	"rootPath": "github.com/ouqiang/gocron"
+	"rootPath": "gocron"
 }

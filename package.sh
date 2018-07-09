@@ -11,7 +11,7 @@ set -o errexit
 set -o nounset
 # 管道中任一命令执行失败退出
 set -o pipefail
-# eval $(go env)
+eval $(go env)
 
 # 二进制文件名
 BINARY_NAME=''
@@ -19,7 +19,7 @@ BINARY_NAME=''
 MAIN_FILE=""
  
 # 提取git最新tag作为应用版本
-VERSION='1.5'
+VERSION='1.1.5'
 # 最新git commit id
 GIT_COMMIT_ID=''
 
