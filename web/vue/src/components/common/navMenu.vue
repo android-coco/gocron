@@ -9,7 +9,7 @@
       router>
       <el-row>
         <el-col :span="2">
-          <el-menu-item index="/task">任务管理111</el-menu-item>
+          <el-menu-item index="/task">任务管理</el-menu-item>
         </el-col>
         <el-col :span="2">
           <el-menu-item index="/host">任务节点</el-menu-item>
